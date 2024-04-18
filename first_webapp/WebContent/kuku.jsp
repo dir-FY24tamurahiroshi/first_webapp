@@ -6,12 +6,12 @@
         <title>Insert title here</title>
     </head>
     <body>
-    <% for(int i = 1;i < 10;i++){ %>
-    <% for(int j = 1;j < 10;j++){%>
+        <% for(int i = 1;i < 10;i++){ %>
+            <% for(int j = 1;j < 10;j++){%>
     <ul>
-        <li><%=i %> × <%=j %> = <%=i*j %></li>
+                <li><%=i %> × <%=j %> = <%=i*j %></li>
     </ul>
-    <%} %>
-    <%} %>
+              <%} %>
+         <%} %>
     </body>
 </html>
